@@ -35,8 +35,8 @@ pip install torch TTS
 
 1. Initialize a new uv project (if starting fresh):
    ```bash
-   uv init tts-project
-   cd tts-project
+   uv init text-to-speech-python
+   cd text-to-speech-python
    ```
 
 2. Add dependencies:
@@ -88,7 +88,7 @@ uv run main.py
 ### Project Structure with uv
 
 ```
-tts-project/
+text-to-speech-python/
 ├── pyproject.toml      # uv project configuration
 ├── main.py            # TTS script
 ├── documents/         # Your text files
